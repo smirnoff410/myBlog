@@ -13,7 +13,6 @@ a {
 
 .panel {
   background-color: #000;
-
 }
 
 .panel ul li a {
@@ -26,6 +25,12 @@ a {
   width: 100%;
   height: 50px;
   position: fixed;
+}
+
+.menu-link {
+  display: none;
+  color: #fff;
+  margin-left: 30px;
 }
 
 .menu {
@@ -43,7 +48,7 @@ a {
   background: #fff;
 }
 
-#menu ul li a{
+#menu ul li a {
   color: #000;
 }
 
@@ -70,7 +75,7 @@ a {
 }
 
 .descr2 {
-  margin: 10px;
+  margin: 5px;
   text-align: center;
   color: #fff;
 }
@@ -83,8 +88,18 @@ a {
   color: #fff;
 }
 
+.Caption {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
 
-footer{
+.descr3 {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+footer {
   height: 300px;
   width: 100%;
   background-color: #111;
@@ -121,10 +136,54 @@ footer p {
   padding: 20px;
 }
 
-
 a {
   text-decoration: none;
 }
+
 a:hover {
   color: #666;
+}
+
+/*About page*/
+.about {
+  font-size: 56px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutText {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.aboutImg img {
+  width: 200px;
+  margin: 5px;
+}
+
+/*=================*/
+
+/*Contacts page*/
+.contactsPage li {
+  font-size: 24px;
+}
+
+.contactsPage li a {
+  color: #000;
+}
+
+/**/
+
+
+@media (max-width: 800px) {
+  .menu {
+    opacity: 0;
+  }
+  .menu-link {
+    display: inline-block;
+  }
 }

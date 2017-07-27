@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z87ast');
-  src:  url('fonts/icomoon.eot?z87ast#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z87ast') format('truetype'),
-    url('fonts/icomoon.woff?z87ast') format('woff'),
-    url('fonts/icomoon.svg?z87ast#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?q27p6s');
+  src:  url('fonts/icomoon.eot?q27p6s#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q27p6s') format('truetype'),
+    url('fonts/icomoon.woff?q27p6s') format('woff'),
+    url('fonts/icomoon.svg?q27p6s#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,17 +33,26 @@
 .icon-address-book:before {
   content: "\e944";
 }
+.icon-envelop:before {
+  content: "\e945";
+}
 .icon-briefcase:before {
   content: "\e9ae";
 }
 .icon-wondering:before {
   content: "\e9fb";
 }
+.icon-instagram:before {
+  content: "\ea92";
+}
 .icon-telegram:before {
   content: "\ea95";
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
 }
 .icon-github:before {
   content: "\eab0";
