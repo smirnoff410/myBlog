@@ -242,6 +242,11 @@ a:hover {
   color: #ef8d04;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
 .mfp-fade.mfp-bg {
   opacity: 0;
 
