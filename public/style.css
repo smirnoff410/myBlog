@@ -4,6 +4,21 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
 }
 
 li {
@@ -240,11 +255,6 @@ a:hover {
 
 .gallery h3 a:hover {
   color: #ef8d04;
-}
-
-.portfolio {
-  display: flex;
-  flex-direction: column;
 }
 
 .mfp-fade.mfp-bg {

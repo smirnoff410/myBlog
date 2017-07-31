@@ -15,47 +15,49 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-  <header>
-    <div id="header">
-      <a href="#menu" class="menu-link">&#9776;</a>
-      <div class="menu">
-        <i class="icon-home"></i>
+  <div class="wrapper">
+    <header>
+      <div id="header">
+        <a href="#menu" class="menu-link">&#9776;</a>
+        <div class="menu">
+          <i class="icon-home"></i>
+          <a href="#!/">Home</a>
+          <i class="icon-wondering" style="margin-left:50px;"></i>
+          <a href="#!/About">About me</a>
+          <i class="icon-address-book" style="margin-left:50px;"></i>
+          <a href="#!/Contacts">Contacts</a>
+          <i class="icon-briefcase" style="margin-left:50px;"></i>
+          <a href="#!/Portfolio">Portfolio</a>
+        </div>
+      </div>
+        <nav id="menu" class="panel" role="navigation">
+            <ul>
+              <li>
+                <a href="#menu" class="menu-link" style="color: #000;">&#9776;</a>
+              </li>
+                <li><i class="icon-home"></i><a href="#!/">Home</a></li>
+                <li><i class="icon-wondering"></i><a href="#!/About">About</a></li>
+                <li><i class="icon-address-book"></i><a href="#!/Contacts">Contacts</a></li>
+                <li><i class="icon-briefcase"></i><a href="#!/Portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <ng-view></ng-view>
+    <footer>
+      <div class="footer-text">
         <a href="#!/">Home</a>
-        <i class="icon-wondering" style="margin-left:50px;"></i>
         <a href="#!/About">About me</a>
-        <i class="icon-address-book" style="margin-left:50px;"></i>
         <a href="#!/Contacts">Contacts</a>
-        <i class="icon-briefcase" style="margin-left:50px;"></i>
         <a href="#!/Portfolio">Portfolio</a>
       </div>
-    </div>
-      <nav id="menu" class="panel" role="navigation">
-          <ul>
-            <li>
-              <a href="#menu" class="menu-link" style="color: #000;">&#9776;</a>
-            </li>
-              <li><i class="icon-home"></i><a href="#!/">Home</a></li>
-              <li><i class="icon-wondering"></i><a href="#!/About">About</a></li>
-              <li><i class="icon-address-book"></i><a href="#!/Contacts">Contacts</a></li>
-              <li><i class="icon-briefcase"></i><a href="#!/Portfolio">Portfolio</a></li>
-          </ul>
-      </nav>
-  </header>
-  <ng-view></ng-view>
-  <footer>
-    <div class="footer-text">
-      <a href="#!/">Home</a>
-      <a href="#!/About">About me</a>
-      <a href="#!/Contacts">Contacts</a>
-      <a href="#!/Portfolio">Portfolio</a>
-    </div>
-    <div align="center" class="icon-socials">
-      <a href="#"><i class="icon-telegram"></i></a>
-      <a href="https://www.instagram.com/smirnoff410/" target="_blank"><i class="icon-instagram"></i></a>
-      <a href="https://github.com/smirnoff410" target="_blank"><i class="icon-github"></i></a>
-      <a href="https://vk.com/id141308375" target="_blank"><i class="icon-vk"></i></a>
-    </div>
-    <p align="center">© 2017, Volgograd, Russian Federation</p>
-  </footer>
+      <div align="center" class="icon-socials">
+        <a href="#"><i class="icon-telegram"></i></a>
+        <a href="https://www.instagram.com/smirnoff410/" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://github.com/smirnoff410" target="_blank"><i class="icon-github"></i></a>
+        <a href="https://vk.com/id141308375" target="_blank"><i class="icon-vk"></i></a>
+      </div>
+      <p align="center">© 2017, Volgograd, Russian Federation</p>
+    </footer>
+  </div>
 </body>
 </html>
