@@ -4,21 +4,6 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-header {
-  flex: 1 0 auto;
-}
-
-footer {
-  flex: 0 0 auto;
 }
 
 li {
@@ -69,6 +54,9 @@ a {
   color: #000;
 }
 
+ng-view {
+  min-height: calc(100vh - 300px);
+}
 
 /**/
 .contentHome {
