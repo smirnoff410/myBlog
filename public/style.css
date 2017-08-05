@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.page {
+  min-height: 100%;
+  position: relative;
+}
+
+#contentMain {
 }
 
 li {
@@ -130,6 +142,8 @@ a {
 
 /**/
 footer {
+  position: absolute;
+  bottom: 0;
   height: 300px;
   width: 100%;
   background-color: #111;
@@ -277,6 +291,11 @@ a:hover {
 }
 
 /*=====================*/
+@media screen and (max-width: 1350px) {
+  footer {
+    bottom: inherit;
+  }
+}
 
 @media screen and (max-width: 860px) {
   .contentHome {

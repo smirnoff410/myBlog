@@ -15,6 +15,7 @@
   <script src="js/script.js"></script>
 </head>
 <body>
+  <div class="page">
     <header>
       <div id="header">
         <a href="#menu" class="menu-link">&#9776;</a>
@@ -41,7 +42,9 @@
             </ul>
         </nav>
     </header>
-    <ng-view></ng-view>
+    <section id="contentMain">
+      <ng-view></ng-view>
+    </section>
     <footer>
       <div class="footer-text">
         <a href="#!/">Home</a>
@@ -57,5 +60,6 @@
       </div>
       <p align="center">© 2017, Volgograd, Russian Federation</p>
     </footer>
+  </div>
 </body>
 </html>
